@@ -6,11 +6,13 @@ import static org.mockito.Mockito.when;
 
 import java.util.Calendar;
 
+import org.junit.Ignore;
 import org.springframework.ws.transport.context.TransportContext;
 import org.springframework.ws.transport.http.HttpExchangeConnection;
 
 import com.sun.net.httpserver.HttpExchange;
 
+@Ignore
 public abstract class AbstractHandlerTest {
 	
 	protected TransportContext transportContext;
